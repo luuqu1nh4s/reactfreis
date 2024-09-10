@@ -1,0 +1,16 @@
+.comp-cabecalhoEx{
+    margin-left: 30px;
+
+    .titulo{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        font: 700 26px 'Roboto';
+
+        .seta{
+            width: 40px;
+            height: 40px;
+        }
+    }
+}

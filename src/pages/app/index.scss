@@ -1,0 +1,25 @@
+.pagina-app{
+
+  .menu{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    gap: 30px;
+    
+    .tituloMenu{
+      color: #383131;
+      font: 700 14px 'Roboto';
+      margin-left: 50px;
+    }
+
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+}

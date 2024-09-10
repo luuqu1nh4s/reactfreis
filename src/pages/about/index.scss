@@ -1,0 +1,31 @@
+.pagina-Sobre{
+    .secao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .intro{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: #ffffff;
+            margin-bottom: 30px;
+            border-radius: 20px;
+            max-width: 75%;
+            gap: 20px;
+            font: 400 26px 'Roboto';
+          }
+        
+        .imagem {
+            display: flex;
+            justify-content: center;
+            width: 120px;
+            height: 139.75px;
+            top: 698px;
+            left: 660px;
+            gap: 0px;
+            opacity: 0px;
+        }
+    }
+}
